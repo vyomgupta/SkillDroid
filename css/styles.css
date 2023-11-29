@@ -43,6 +43,58 @@ header {
 .nav-links a:hover {
     color: #ffc107; /* Change the color as needed */
 }
+/* Add this to your existing CSS file */
+.location-bar,
+.search-bar {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.location-bar input,
+.search-bar input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Adjustments for styling consistency */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 10px; /* Adjust as needed */
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Add a hover effect if you like */
+.nav-links a:hover {
+    color: #ffc107; /* Change the color as needed */
+}
 
 
 /* Add this to your existing CSS file */
