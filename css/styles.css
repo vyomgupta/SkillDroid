@@ -43,3 +43,61 @@ header {
 .nav-links a:hover {
     color: #ffc107; /* Change the color as needed */
 }
+
+
+/* Add this to your existing CSS file */
+.login-link {
+    margin-left: auto; /* This will push the login link to the right */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.login-link a {
+    text-decoration: none;
+    color: #333; /* Set the color of the login link */
+    font-weight: bold; /* Set the font weight as needed */
+
+}
+
+/* Add this to your existing CSS file */
+.auth-links {
+    display: flex;
+}
+
+.auth-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+/* Add a hover effect if you like */
+.auth-links a:hover {
+    color: #ffc107; /* Change the color as needed */
+}
+
+
+/* Add this to your existing CSS file */
+.services {
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the services horizontally */
+    max-width: 1200px; /* Set a maximum width for the services container */
+    margin: 0 auto; /* Center the services container horizontally */
+}
+
+.service {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 1.2em;
+}

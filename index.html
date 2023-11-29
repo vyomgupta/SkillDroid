@@ -7,24 +7,31 @@
     <title>Your Website Title</title>
     <link rel="stylesheet" href="./css/styles.css">
     <!-- Include your CSS files, meta tags, and other head elements here -->
+    <script src="./js/app.js" defer></script>
 </head>
 
 <body>
 
     <!-- Header Section -->
-    <header>
-        <!-- Navigation Bar -->
-        <nav>
-            <!-- Logo and Navigation Links -->
-            <div class="logo"><a href="#">YourLogo</a></div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Header Section -->
+<header>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <!-- Logo and Navigation Links -->
+        <div class="logo"><a href="#">SkillDroid</a></div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="auth-links">
+            <a href="#">Login</a>
+            <a href="#">Signup</a>
+        </div>
+    </nav>
+</header>
+
 
     <!-- Main Content Section -->
     <main>
@@ -32,18 +39,22 @@
         <section class="hero">
             <h1>Welcome to Your Website</h1>
             <p>Your compelling message or tagline goes here.</p>
-            <a href="#" class="cta-button">Get Started</a>
+            <img src="./images/skillHeading.jpg" alt="">
+            <!-- <a href="#" class="cta-button">Get Started</a> -->
         </section>
 
-        <!-- Services Section -->
-        <section class="services">
-            <h2>Our Services</h2>
-            <!-- Add your service content here -->
-        </section>
+<!-- Services Section -->
+<section class="services">
+    <h2>Our Services</h2>
+    <div class="services-container" id="servicesContainer">
+        <!-- Services will be dynamically added here -->
+    </div>
+</section>
+
 
         <!-- About Us Section -->
         <section class="about">
-            <h2>About Us</h2>
+            <h2>Why choose us</h2>
             <!-- Add information about your company or team here -->
         </section>
 
