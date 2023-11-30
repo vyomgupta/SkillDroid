@@ -10,62 +10,7 @@ header {
     padding: 10px 0;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.logo a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-}
-
-.nav-links li {
-    margin: 0 15px;
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Add a hover effect if you like */
-.nav-links a:hover {
-    color: #ffc107; /* Change the color as needed */
-}
-/* Add this to your existing CSS file */
-.location-bar,
-.search-bar {
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-}
-
-.location-bar input,
-.search-bar input {
-    padding: 5px;
-    margin-right: 5px;
-}
-
-.search-bar button {
-    padding: 5px 10px;
-    background-color: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-/* Adjustments for styling consistency */
+/* Navbar Styling */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -73,6 +18,12 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px 0;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
 }
 
 .nav-links {
@@ -96,21 +47,41 @@ header {
     color: #ffc107; /* Change the color as needed */
 }
 
+/* Location and Search Bar Styling */
+.location-bar,
+.search-bar {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
 
-/* Add this to your existing CSS file */
+.location-bar input,
+.search-bar input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Login Link Styling */
 .login-link {
-    margin-left: auto; /* This will push the login link to the right */
-    padding: 10px; /* Adjust padding as needed */
+    margin-left: auto;
+    padding: 10px;
 }
 
 .login-link a {
     text-decoration: none;
     color: #333; /* Set the color of the login link */
     font-weight: bold; /* Set the font weight as needed */
-
 }
 
-/* Add this to your existing CSS file */
+/* Authentication Links Styling */
 .auth-links {
     display: flex;
 }
@@ -127,8 +98,7 @@ header {
     color: #ffc107; /* Change the color as needed */
 }
 
-
-/* Add this to your existing CSS file */
+/* Services Section Styling */
 .services {
     text-align: center;
 }
