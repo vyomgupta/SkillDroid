@@ -29,4 +29,17 @@ document.addEventListener('DOMContentLoaded', function () {
         // Append the service element to the services container
         servicesContainer.appendChild(serviceElement);
     });
+
+    // Get the login and signup links
+    const loginLink = document.getElementById('loginLink');
+    loginLink.addEventListener('click', function (event) {
+        event.preventDefault();
+        window.location.href = 'pages/login.html';
+    });
+
+    const signupLink = document.getElementById('signupLink');
+    signupLink.addEventListener('click', function (event) {
+        event.preventDefault();
+        window.location.href = 'pages/signup.html';
+    });
 });

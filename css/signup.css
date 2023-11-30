@@ -1,0 +1,40 @@
+
+.signup-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.signup-section h2 {
+    color: #333;
+}
+
+.signup-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-section label {
+    margin-bottom: 5px;
+}
+
+.signup-section input {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.signup-section button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-section button:hover {
+    background-color: #555;
+}
